@@ -2,7 +2,7 @@
 
 Aplicación web para presentar mi portafolio y gestionar tareas, construida con **React 19 + Vite 7**, **Tailwind CSS 4** (con `@tailwindcss/vite`), **React Router 7**, animaciones con **framer-motion** e íconos con **lucide-react** / **react-icons**.
 
-🔗 **Producción**: https://portafolio-pablo-arreola.vercel.app/
+🔗 **Producción**: https://portafolio-pablo-arreola-26dv.vercel.app/
 
 ---
 
@@ -55,7 +55,7 @@ Directorio de salida: dist
 
 Variables de entorno (si las usas) -> Settings > Environment Variables.
 
-Una vez desplegado, Vercel provee una URL (este proyecto ya vive en: https://portafolio-pablo-arreola.vercel.app/
+Una vez desplegado, Vercel provee una URL (este proyecto ya vive en: https://portafolio-pablo-arreola-26dv.vercel.app/
 ).
 
 

@@ -1,0 +1,54 @@
+/* === Tailwind v4 imports === */
+@import "tailwindcss";
+
+
+
+/* === Paleta global personalizada === */
+@theme {
+  --color-bg: #0a0a0a;
+  --color-primary: #00bfff;
+  --color-secondary: #00ff9d;
+  --color-text: #e2e8f0;
+  --color-accent: #38bdf8;
+
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+/* === Estilos globales === */
+html,
+body {
+  background: linear-gradient(135deg, #0a0a0a 0%, #001f3f 60%, #003366 100%);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+/* === Transiciones === */
+* {
+  transition: all 0.25s ease-in-out;
+}
+
+/* === Scrollbar === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 10px;
+}
+
+/* === Animación fade-in === */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in {
+  animation: fadeIn 1.2s ease-in-out forwards;
+}
